@@ -318,5 +318,13 @@ footer {
 }
 
 footer p {
-  padding-top: 25px;
+  padding-top: 15px;
+}
+
+footer .foot_logo {
+  color: orangered;
+  font-family: 'Roboto Slab';
+  font-size: 24px;
+  text-align: center;
+  font-weight: bolder;
 }

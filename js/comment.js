@@ -36,6 +36,8 @@ class UI {
 
 
     list.appendChild(row);
+
+
   }
 }
 
@@ -57,4 +59,6 @@ e.preventDefault();
 
 
   UI.addCommentToList(comment);
+
+  const name = document.querySelector('#name').value = "";
 });

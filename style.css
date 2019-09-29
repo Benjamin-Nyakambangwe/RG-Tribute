@@ -338,6 +338,57 @@ footer .foot_logo {
   font-weight: bolder;
 }
 
+@media (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
+  .showcase {
+    height: 380px;
+  }
+  .content h1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+  }
+  .content h4 {
+    font-size: 30px;
+  }
+  .section {
+    flex-direction: column;
+    height: 500px;
+  }
+  .overview {
+    width: 100%;
+    padding-right: 25px;
+  }
+  .overview h4 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+  }
+  .overview p {
+    font-size: 16px;
+    padding: 10px;
+  }
+  .qoutes h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .main {
+    grid-template-columns: 1fr;
+  }
+  .timeline p{
+    left: 0;
+    float: left;
+    margin-left: 25px;
+    padding: 15px 8px;
+    margin-top: 10px;
+  }
+}
+
 
 @media (max-width: 700px) {
   * {
